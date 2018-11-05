@@ -1,0 +1,54 @@
+h1, h2 {
+    font-family:'Charmonman', cursive;
+}
+h1 {
+    font-size:42px;
+}
+h2 {
+    font-size:26px;
+}
+#Icon_Celestina #navegador ul {
+    list-style-type: none;
+    text-align: center;
+}
+#navegador li {
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+}
+#navegador li a {
+    padding: 2px 7px 2px 7px;
+    color: #666;
+    background-color: #eeeeee;
+    border: 1px solid #ccc;
+    text-decoration: none;
+}
+#navegador li a:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
+#Icon_pocion {  width:120px;
+        height:180px;
+        animation:move 1.0s infinite;
+  
+}
+#robots{
+  font-size:30px;
+  color:white;
+  background:linear-gradient(green, yellow, orange, red, purple, blue);
+  padding:30px;
+  border-radius:5px;
+  text-align:center;
+}
+#Icon_pocion{
+  height: 100px;
+  position: absolute;
+  left: -200px;
+  animation: slide1 5s infinite;
+}
+@keyframes slide1 { 
+  0% { left: -200px}
+  50% { left: 0}
+  100% { left: -200px}
+}
+
